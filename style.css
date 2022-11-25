@@ -38,6 +38,11 @@ body{
     word-spacing: 5px;
     ;
 }
+.para img{
+    width: 40%;
+    align-items: center;
+    margin:10% 20%;
+}
 .para{
     padding: 10px;
     margin: 10px;
@@ -50,8 +55,9 @@ a.link{
     border-radius: 5px;
     border: 1px solid rgb(213, 171, 171);
     text-decoration: none;
-  font-weight: 600;
+    font-weight: 600;
     color: rgb(2, 2, 3);
+    
 }
 a.link:hover{
     background-color: antiquewhite;
