@@ -14,13 +14,23 @@
 .heading{
     text-align: center;
     padding: 20px;
-    background-color:rgb(244, 234, 234);
+    background-color:#6666ff;
     border-radius: 15px;
 
-    color: rgb(12, 9, 9);
+    color: white;
 }
 img.card-img-top{
     width: 100%;
+}
+.card-body{
+   color: white;
+    background-color:#8080ff ;
+}
+.card-body h5,p{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
 .row {
     margin:10px;
