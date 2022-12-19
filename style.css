@@ -26,6 +26,9 @@ img.card-img-top{
    color: white;
     background-color:#8080ff ;
 }
+.card{
+    margin-top: 10px;
+}
 .card-body h5,p{
     color: white;
     font-weight: 600;
