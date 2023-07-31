@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-f">
+        <div class="input-container">
+          <label for="day" class="input-lable">DAY</label>
+          <input type="number" id="day" placeholder="DD" value="24" />
+          <small class="error-day"></small>
+        </div>
+        <div class="input-container">
+          <label for="day" class="input-lable">MONTH</label>
+          <input type="number" id="month" placeholder="MM" value="09" />
+          <small class="error-month"></small>
+        </div>
+        <div class="input-container">
+          <label for="day" class="input-lable">YEAR</label>
+          <input type="number" id="year" placeholder="YYYY" value="1984" />
+          <small class="error-year"></small>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="button">
+        <hr class="line" />
+
+        <button onclick="calculateAge()">
+          <img src="./assets/images/icon-arrow.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="result">
+        <h1><span id="re-years">--</span>years</h1>
+        <h1><span id="re-months">--</span>months</h1>
+        <h1><span id="re-days">--</span>days</h1>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ravindra Kumar</a>.
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>

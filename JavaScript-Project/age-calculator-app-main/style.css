@@ -1,0 +1,102 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+  --Purple: hsl(259, 100%, 65%);
+  --Light-red: hsl(0, 100%, 67%);
+  --ff: 'Poppins', sans-serif;
+}
+
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Off-white);
+    font-family: var(--ff);
+}
+.container{
+    height: 600px;
+ width: 700px;
+ background-color: var(--White);
+
+ border-radius: 10px 10px 100px 10px;
+ box-shadow: 3px 5px 9px rgba(0,0,0,.6);
+}
+.input-f{
+    margin-top: 50px;
+display: flex;
+
+}
+.input-lable{
+    font-weight: 700;
+    color: var(--Light-red);
+    font-size: 20px;
+    text-align:right;
+}
+
+.input-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+     margin: 10px;
+     align-items: center;
+} 
+input{
+    width:50%;
+    border-radius: 5px;
+    font-weight: 900;
+    height: 100%;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+.button{
+text-align: right;
+margin-right: 20px;
+display: flex;
+}
+.line{
+margin-top: 40px;
+    width: 80%;
+}
+.button button{
+    width: 10%;
+    background-color: var(--Purple);
+    border-radius: 200px;
+}
+.button button img{
+    width: 100%;
+}
+.result{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+#re-years{
+    color: var(--Purple);
+}
+#re-months{
+    color: var(--Purple);
+}
+#re-days{
+    color: var(--Purple);
+}
